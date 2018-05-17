@@ -1,0 +1,6 @@
+cp /usr/share/nginx/html/components/com_community/models/profile.php components/com_community/models
+cp -r /usr/share/nginx/html/components/com_community/views/profile components/com_community/views
+cp -r /usr/share/nginx/html/components/com_community/templates/jomsocial/layouts/profile components/com_community/templates/jomsocial/layouts
+cp /usr/share/nginx/html/components/com_community/controllers/profile.php components/com_community/controllers
+zip -r community_profile components
+
